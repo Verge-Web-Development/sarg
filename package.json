@@ -1,0 +1,33 @@
+{
+  "name": "sarg",
+  "version": "1.0.0",
+  "description": "Sarg Arizona Rainwater Harvesting & Gutters",
+  "main": "app.js",
+  "dependencies": {
+        "koa": "0.21.0",
+        "koa-handlebars": "0.5.7",
+        "koa-router": "5.1.2",
+        "koa-static": "1.4.9",
+        "koa-favicon": "1.2.0",
+        "koa-compress": "1.0.8",
+        "co-body": "3.0.0",
+        "nodemailer": "1.4.0",
+        "nodemailer-direct-transport": "1.0.2 "
+  },
+  "devDependencies": {},
+  "scripts": {
+        "test": "nodemon --harmony app.js",
+        "startForever": "forever start --spinSleepTime 10000 --harmony app.js",
+        "start": "nodejs --harmony app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verge-Web-Development/sarg.git"
+  },
+  "author": "Alexander Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verge-Web-Development/sarg/issues"
+  },
+  "homepage": "https://github.com/Verge-Web-Development/sarg#readme"
+}
