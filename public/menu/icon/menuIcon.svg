@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" viewBox="0 0 100 100" stroke-linecap="square" xmlns:xlink="http://www.w3.org/1999/xlink" cursor="pointer">
+  <style>
+    .fill { fill:#333333; }
+  </style>
+  <script xlink:href="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"/>
+  <script xlink:href="/menu/icon/menuIcon.js"/>
+  <path id="top" d="M-.016 9.945h100v13.622h-100z" class="fill"/>
+  <path id="middle" d="M-.016 44.19h100v13.62h-100z" class="fill"/>
+  <path id="bottom" d="M-.016 77.433h100v13.622h-100z" class="fill"/>
+</svg>
